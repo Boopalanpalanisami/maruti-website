@@ -49,13 +49,20 @@ header .wrapper ul {
 header .wrapper ul li a {
   font-size: 20px;
   font-weight: 500;
+  transition: all 0.4s ease;
+  border-bottom: 2px solid transparent;
+
+}
+header .wrapper ul li a:hover{
+  border-bottom: 2px solid white;
+    
 }
 
 header .wrapper .hamburger {
   display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 400px) {
   header .wrapper ul {
     display: none;
   }
