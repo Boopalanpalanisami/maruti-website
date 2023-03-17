@@ -62,7 +62,7 @@ header .wrapper .hamburger {
   display: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 767px) {
   header .wrapper ul {
     display: none;
   }
@@ -80,4 +80,92 @@ header .wrapper .hamburger {
     width: 35px;
   }
 
+}
+/* sales section */
+.sales{
+    padding: 0 32px;
+    margin-top: 32px;
+}
+
+.sales .wrapper {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sales .wrapper h1{
+    font-size: 40px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.sales .wrapper p{
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 12px;
+    background: #cce5ff;
+    color: #004085;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.sales .wrapper p .empty-space {
+    margin-right: 50px;
+}
+
+.sales .wrapper .banner-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* service section */
+.service{
+  padding: 0 32px;
+  margin-top: 32px;
+  background:#293790 ;
+ 
+}
+
+.service .wrapper{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.service .wrapper h1{
+  font-size: 40px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #fff;
+  
+}
+
+.service .wrapper p{
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 12px;
+  color: #fff;
+  font-weight: 600;
+}
+.service .wrapper .img-wrapper{
+  display: flex;
+  gap: 8px;
+}
+.service .wrapper img{
+  height: 300px;
+  width: 50%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+@media screen and (max-width:767px){
+  .service .wrapper .img-wrapper{
+    flex-direction: column;
+  }
+  .service .wrapper img{
+    width: 100%;
+  }
 }
