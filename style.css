@@ -34,7 +34,7 @@ header .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 0 ;
+  padding: 5px 0;
 }
 
 header .wrapper .title a img {
@@ -51,11 +51,9 @@ header .wrapper ul li a {
   font-weight: 500;
   transition: all 0.4s ease;
   border-bottom: 2px solid transparent;
-
 }
-header .wrapper ul li a:hover{
+header .wrapper ul li a:hover {
   border-bottom: 2px solid white;
-    
 }
 
 header .wrapper .hamburger {
@@ -79,93 +77,132 @@ header .wrapper .hamburger {
   header .wrapper .hamburger button img {
     width: 35px;
   }
-
 }
 /* sales section */
-.sales{
-    padding: 0 32px;
-    margin-top: 32px;
+.sales {
+  padding: 0 32px;
+  margin-top: 32px;
 }
 
 .sales .wrapper {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.sales .wrapper h1{
-    font-size: 40px;
-    margin-bottom: 12px;
-    text-align: center;
+.sales .wrapper h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+  text-align: center;
 }
 
-.sales .wrapper p{
-    font-size: 16px;
-    line-height: 32px;
-    margin-bottom: 12px;
-    background: #cce5ff;
-    color: #004085;
-    font-weight: 600;
-    padding: 20px 30px;
-    border-radius: 10px;
+.sales .wrapper p {
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 12px;
+  background: #cce5ff;
+  color: #004085;
+  font-weight: 600;
+  padding: 20px 30px;
+  border-radius: 10px;
 }
 
 .sales .wrapper p .empty-space {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 .sales .wrapper .banner-image img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 5px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 /* service section */
-.service{
+.service {
   padding: 0 32px;
   margin-top: 32px;
-  background:#293790 ;
- 
+  background: #293790;
 }
 
-.service .wrapper{
+.service .wrapper {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   padding: 20px 0;
 }
 
-.service .wrapper h1{
+.service .wrapper h1 {
   font-size: 40px;
   margin-bottom: 12px;
   text-align: center;
   color: #fff;
-  
 }
 
-.service .wrapper p{
+.service .wrapper p {
   font-size: 16px;
   line-height: 32px;
   margin-bottom: 12px;
   color: #fff;
   font-weight: 600;
 }
-.service .wrapper .img-wrapper{
+.service .wrapper .img-wrapper {
   display: flex;
   gap: 8px;
 }
-.service .wrapper img{
+.service .wrapper img {
   height: 300px;
   width: 50%;
   object-fit: cover;
   border-radius: 5px;
 }
 
-@media screen and (max-width:767px){
-  .service .wrapper .img-wrapper{
+@media screen and (max-width: 767px) {
+  .service .wrapper .img-wrapper {
     flex-direction: column;
   }
-  .service .wrapper img{
+  .service .wrapper img {
     width: 100%;
   }
+}
+
+.service .wrapper p .service-empyt-space {
+  margin-right: 50px;
+}
+
+/* insurance section */
+
+.insurance {
+  padding: 0 32px;
+  margin-top: 30px;
+}
+
+.insurance .wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.insurance .wrapper h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.insurance .wrapper p {
+  font-size: 20px;
+  line-height: 28px;
+}
+.insurance .wrapper p:nth-child(3) {
+  color: #293790;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.insurance .wrapper p .bold-insurance {
+  font-weight: 700;
+}
+
+.insurance .wrapper img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
